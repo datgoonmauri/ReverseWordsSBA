@@ -13,8 +13,8 @@ public class Main {
         String[] split = reverseWords.split(" ");
 
         String result;
-        if (split.length > 4) {
-            result = split[0] + " " + split[2] + " " + split[2];
+        if (split.length > 3) {
+            result = split[0] + " " + split[1] + " " + split[2];
         } else {
             result = split[2] + " " + split[1] + " " + split[0];
         }
